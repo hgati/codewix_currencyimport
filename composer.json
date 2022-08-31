@@ -1,0 +1,14 @@
+{
+	"name": "hgati/codewix_currencyimport",
+	"type": "magento-module",
+	"description": "currency rates autoupdate for Magento 1.x",
+	"keywords": ["magento currency rates"],
+	"homepage": "https://github.com/hgati/codewix_currencyimport",
+	"license": "MIT",
+	"authors": [{ "name": "Dennis Lee", "email": "cobays@gmail.com", "homepage": "https://github.com/hgati", "role": "Magento 1.x Developer" }],  
+  
+	"require": { 
+	  "php": ">=7.0.0",
+	  "magento-hackathon/magento-composer-installer": "*" 
+	}
+}

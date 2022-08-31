@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Codewix_Currencyimport>
+            <version>0.1.0</version>
+        </Codewix_Currencyimport>
+    </modules>
+    <global>
+        <currency>
+            <import>
+                <services>
+                    <google>
+                        <name>Google</name>
+                        <model>currencyimport/currency_import_google</model>
+                    </google>
+                    <yahoo>
+                        <name>Yahoo</name>
+                        <model>currencyimport/currency_import_yahoo</model>
+                    </yahoo>
+                </services>
+            </import>
+        </currency>
+        <models>
+            <currencyimport>
+                <class>Codewix_Currencyimport_Model</class>
+            </currencyimport>
+        </models>
+        <helpers>
+            <currencyimport>
+                <class>Codewix_Currencyimport_Helper</class>
+            </currencyimport>
+        </helpers>
+    </global>
+</config>
