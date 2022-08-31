@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Codewix_Currencyimport>
-            <version>0.1.0</version>
+            <version>0.1.2</version>
         </Codewix_Currencyimport>
     </modules>
     <global>
@@ -17,6 +17,14 @@
                         <name>Yahoo</name>
                         <model>currencyimport/currency_import_yahoo</model>
                     </yahoo>
+                    <openapi>
+                        <name>Openapi</name>
+                        <model>currencyimport/currency_import_openapi</model>
+                    </openapi>
+                    <appspot>
+                        <name>Appspot</name>
+                        <model>currencyimport/currency_import_appspot</model>
+                    </appspot>
                 </services>
             </import>
         </currency>
